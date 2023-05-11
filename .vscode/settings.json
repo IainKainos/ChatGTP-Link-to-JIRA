@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/adffb0b7-10b5-4278-b067-2c567b6c7313/resourceGroups/Iain-GPT-JIRA/providers/Microsoft.Web/sites/Iain-ChatGPT-JIRA-API-Link",
+    "appService.deploySubpath": "."
+}
