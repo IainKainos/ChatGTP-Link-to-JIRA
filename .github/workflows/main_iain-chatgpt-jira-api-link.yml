@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'Iain-ChatGPT-JIRA-API-Link'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_E3C7C4FB4FCD40AC9DD1399B1D1D6E12 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_FAE49E85352A42D9A0F100729EB26DA3 }}
           package: .
