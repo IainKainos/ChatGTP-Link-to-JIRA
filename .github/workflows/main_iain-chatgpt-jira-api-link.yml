@@ -1,6 +1,6 @@
 # Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
 # More GitHub Actions for Azure: https://github.com/Azure/actions
-
+# this first step in deloy that sets the version was added by Iain 
 name: Build and deploy Node.js app to Azure Web App - Iain-ChatGPT-JIRA-API-Link
 
 on:
@@ -41,6 +41,11 @@ jobs:
       url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
 
     steps:
+      - name: Set up Node.js 
+        uses: actions/setup-node@v2
+        with:
+         node-version: '16.x'
+        
       - name: Download artifact from build job
         uses: actions/download-artifact@v2
         with:
